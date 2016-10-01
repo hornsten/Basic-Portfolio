@@ -1,27 +1,51 @@
-h1,h2 {
+h1,h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-
-}
-h1, h2 {
-	background-color: #ffffff;
 	color: #4aaaa5;
+	border-bottom: 2px solid #cccccc;
+	line-height: 150%;
 }
+
 
 #brand {
 	background-color:  #4aaaa5;
 	color: #ffffff;
 	padding: 20px;
 	width: 220px;
-	margin: 20px 30px 0px 0px;
+	margin: 24px 30px 0px 0px;
 	float: left;
 	display: inline;
 
 }
 
 #header {
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
+	background: #ffffff;
+}
+.nav {
+	background: #ffffff;
+	margin: 0px 200px 0px 150px;
 }
 
+.bio {
+	width: 40%;
+	background: #ffffff;
+	float: left;
+	margin-left: 150px;
+	margin-top: 30px;	
+	padding: 10px 20px;
+	border: 1px solid #dddddd;
+}
+.connect {
+	width: 20%;
+	background: #ffffff;
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #dddddd;
+	text-align: center;
+
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -47,13 +71,10 @@ li a:hover {
     background-color: #4aaaa5;
 }
 
-.bio {
-	width: 70%;
-	float: left;
-}
-#pic {
+
+#pic  {
 	height: 200px;
-	width: 200px;
+	width: auto;
 	margin: 15px;
 }
 
@@ -64,16 +85,17 @@ img {
 }
 
 body {
+	width: 100%;
+	margin: 0 auto;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-	
 	background-image: url('../images/new_year_background.png');
+	line-height: 200%;
 
 }
 
 .container {
-	width: 960px;
-	margin: 0 auto;
+
 }
 
 .intro {float:left;}
