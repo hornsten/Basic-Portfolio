@@ -94,24 +94,45 @@ img {
 	
 }
 
-.img {
-	height: 150px;
+.img1, .img2, .img3, .img4, .img5 {
+	
+	height: 140px;
+	width: 200px;
 	float: left;
 	margin: 20px;
+	background-size: 200px auto;
+	background-repeat: no-repeat;
 
 }
-
-.thumbnails {
-	height: 150px;
-	width: auto;
-
+.img1 {
+	background-image: url("../images/city-q-c-640-480-4.jpg");
 }
+
+.img2 {
+	background-image: url("../images/fashion-q-c-640-480-5.jpg");
+}
+
+.img3 {
+	background-image: url("../images/fashion-q-c-640-480-7.jpg");
+}
+
+.img4 {
+	background-image: url("../images/fashion-q-c-640-480-10.jpg");
+}
+
+.img5 {
+	background-image: url("../images/nature-q-c-640-480-7.jpg");
+}
+
 
 .desc {
 	background: #4aaaa5;
 	color: #ffffff;
 	text-align: center;
-
+	margin-top: 100px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: lighter;
+	font-size: 15px;
 
 }
 
