@@ -87,11 +87,42 @@ li a:hover {
     background-color: #4aaaa5;
 }
 
+input, textarea {
+	width: 100%;
+}
+
+input {
+	padding: 10px 0px;
+
+}
+
+
+textarea {
+	border-color: #dddddd;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    width: 100px;
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding:10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type=submit]:hover {
+	background-color: #337571;
+}
+
+
 
 #pic  {
 	height: 200px;
 	width: auto;
 	margin: 20px 20px 0px 0px;
+	float: left;
 }
 
 
@@ -166,7 +197,7 @@ body {
 	
 }
 
-.intro {float:left;}
+
 
 .footer, .push {
 
