@@ -1,4 +1,7 @@
-h1,h3 {
+* {
+	margin: 0;
+}
+h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	border-bottom: 2px solid #cccccc;
@@ -26,26 +29,32 @@ h1,h3 {
 	margin: 0px 200px 0px 150px;
 }
 
-.bio {
+.bio, .input {
 	width: 40%;
 	background: #ffffff;
 	float: left;
 	margin-left: 150px;
-	margin-top: 30px;	
+	margin-top: 30px;
+	margin-bottom: 30px;	
 	padding: 10px 20px;
 	border: 1px solid #dddddd;
 }
-.connect {
-	width: 20%;
+.connect  {
+	
 	background: #ffffff;
 	float: left;
 	margin-left: 50px;
 	margin-top: 30px;
-	padding: 10px 10px 20px 10px;
+	padding: 10px 20px 20px 20px;
 	border: 1px solid #dddddd;
 	text-align: center;
 
 }
+
+#icons {
+	padding-top: 15px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -81,9 +90,13 @@ li a:hover {
 img {
 	height: 50px;
 	width:50px;
+	padding-top: 5px;
 	
 }
 
+html, body {
+	height: 100%
+}
 body {
 	width: 100%;
 	margin: 0 auto;
@@ -92,11 +105,30 @@ body {
 	background-image: url('../images/new_year_background.png');
 	line-height: 200%;
 
+
 }
 
-.container {
-
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -155px;
+	height: auto !important;
+	height: 100%;
+	
 }
 
 .intro {float:left;}
+
+.footer, .push {
+
+	clear:both;
+	height: 155px;
+}
+
+.footer {
+	background: #666666;
+	border-top: 6px solid #4aaaa5;
+	text-align: center;
+	color: #ccc;
+	font-size: 10px;
+}
 
