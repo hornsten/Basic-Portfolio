@@ -29,7 +29,7 @@ h1, h2, h3 {
 	margin: 0px 200px 0px 150px;
 }
 
-.bio, .input {
+.bio, .input, .gallery {
 	width: 40%;
 	background: #ffffff;
 	float: left;
@@ -92,6 +92,27 @@ img {
 	width:50px;
 	padding-top: 5px;
 	
+}
+
+.img {
+	height: 150px;
+	float: left;
+	margin: 20px;
+
+}
+
+.thumbnails {
+	height: 150px;
+	width: auto;
+
+}
+
+.desc {
+	background: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+
+
 }
 
 html, body {
