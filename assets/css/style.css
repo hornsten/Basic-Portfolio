@@ -1,6 +1,53 @@
+/*
+*==Global Styles==
+*/
+
 * {
 	margin: 0;
 }
+
+html, body {
+	height: auto;
+}
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url('../images/new_year_background.png');
+	line-height: 150%;
+	font-size: 16px;
+	
+}
+
+.wrapper {
+
+	min-height: 100%;
+	margin: 0 auto -150px;
+	height: auto !important;
+	height: 100%;
+	
+}
+
+p {
+	margin: 20px 0px;
+}
+
+img {
+	height: 25%;
+	width:25%;
+	padding: 1px;
+}
+
+img:hover {
+	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+	opacity: 0.7;
+}
+
+a {
+	text-decoration: none;
+}
+
 h1, h2, h3, h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
@@ -9,23 +56,9 @@ h1, h2, h3, h4 {
 
 }
 
-#head-left {
-	text-align: left;
-	margin: 0px 25px;
-}
-
-#brand {
-	background-color:  #4aaaa5;
-	color: #ffffff;
-	padding: 25px;
-	float: left;
-	display: inline;
-	line-height: 100%;
-	border: none;
-	font-size: 20px;
-
-}
-
+/*
+*==Navigation and Header==
+*/
 nav {
 	background: #ffffff;
 	border-bottom: 2px solid #cccccc;
@@ -33,6 +66,7 @@ nav {
 	line-height: 100%;
 	width: 100%;
 }
+
 ul {
     list-style-type: none;
     padding: 0px;
@@ -49,13 +83,31 @@ li a {
     text-shadow: 0 0 black;
 }
 
-#add-margin {
-	margin-right: 8%;
-}
 li a:hover {
     background-color: #cccccc;
     color: #ffffff;
 }
+
+#my-name {
+	background-color:  #4aaaa5;
+	color: #ffffff;
+	padding: 25px;
+	float: left;
+	display: inline;
+	line-height: 100%;
+	border: none;
+	font-size: 20px;
+
+}
+
+#menu-margin {
+	margin-right: 8%;
+}
+
+/*
+*==Main Content Area==
+*/
+
 .bio, .text, .gallery {
 	width: 60%;
 	height: auto;
@@ -69,78 +121,21 @@ li a:hover {
 	line-height: 200%;
 	
 }
+
 .bio, .text {
 	padding: 0px 25px 25px;
 }
+
+
 
 .gallery {
 	padding: 0px 0px 30px 0px;
 	text-align: center;
 }
 
-p {
-	margin: 20px 0px;
-}
-
-
-.connect  {
-	
-	width: 18%;
-	height: auto;
-	background: #ffffff;
-	float: left;
-	margin-left: 3%;
-	margin-right: 7%;
-	margin-top: 30px;
-	padding: 10px 20px 30px 20px;
-	border: 1px solid #dddddd;
-	text-align: center;
-	
-}
-
-#icons {
-	padding-top: 10px;
-	
-}
-
-img {
-	height: 25%;
-	width:25%;
-	padding: 1px;
-}
-
-a {
-	text-decoration: none;
-}
-
-
-input, textarea {
-	width: 100%;
-	padding: 10px;
-	box-sizing: border-box;
-	font-size: 14px;
-}
-
-textarea {
-	border-color: #dddddd;
-	
-}
-
-input[type=button], input[type=submit], input[type=reset] {
-    width: 100px;
-    background-color: #4aaaa5;
-    border: none;
-    color: #ffffff;
-    padding:10px;
-    margin-top: 10px;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-input[type=submit]:hover {
-	background-color: #337571;
-}
+/*
+*--About Me Section--
+*/
 
 #pic  {
 	height: 150px;
@@ -150,7 +145,16 @@ input[type=submit]:hover {
 	box-sizing: border-box;
 }
 
-.img1, .img2, .img3, .img4, .img5 {
+/*
+*--Portfolio Section--
+*/
+
+#portfolio-heading {
+	text-align: left;
+	margin: 0px 25px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
 	
 	display: inline-block;
 	margin: 30px 10px 0px 10px;
@@ -169,7 +173,6 @@ input[type=submit]:hover {
 	opacity: 0.7;
 
 }
-
 
 .img1 {
 
@@ -203,31 +206,66 @@ input[type=submit]:hover {
 	
 }
 
+/*
+*--Contact Section--
+*/
 
-html, body {
-	height: auto;
-}
-body {
+input, textarea {
 	width: 100%;
-	margin: 0 auto;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-	background-image: url('../images/new_year_background.png');
-	line-height: 150%;
-	font-size: 16px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+textarea {
+	border-color: #dddddd;
 	
 }
 
-.wrapper {
+input[type=button], input[type=submit], input[type=reset] {
+    width: 100px;
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding:10px;
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
 
-	min-height: 100%;
-	margin: 0 auto -150px;
-	height: auto !important;
-	height: 100%;
+input[type=submit]:hover {
+	background-color: #337571;
+}
+
+/*
+*==Sidebar Content Area==
+*/
+
+.connect  {
+	
+	width: 18%;
+	height: auto;
+	background: #ffffff;
+	float: left;
+	margin-left: 3%;
+	margin-right: 7%;
+	margin-top: 30px;
+	padding: 10px 20px 30px 20px;
+	border: 1px solid #dddddd;
+	text-align: center;
+	min-width: 150px;
 	
 }
 
+#icons {
+	padding-top: 10px;
+	
+}
 
+/*
+*==Footer==
+*/
 
 .footer, .push {
 
