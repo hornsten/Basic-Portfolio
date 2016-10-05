@@ -56,6 +56,16 @@ h1, h2, h3, h4 {
 
 }
 
+h2 {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
 /*
 *==Navigation and Header==
 */
@@ -97,6 +107,7 @@ li a:hover {
 	line-height: 100%;
 	border: none;
 	font-size: 20px;
+	font-weight: bolder;
 
 }
 
